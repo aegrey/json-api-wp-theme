@@ -1,4 +1,5 @@
-# wordpress-api-theme
+# JSON API Display
+### Wordpress API Theme
 A basic theme for wordpress when using it as an API with WP REST API that displays a basic json error/custom response. 
 Any non-api a user tries to visit will result in the same message.  
   
