@@ -1,14 +1,9 @@
-<?php get_header(); ?>
-<section id="content" role="main">
-<article id="post-0" class="post not-found">
-<header class="header">
-<h1 class="entry-title"><?php _e( 'Not Found', 'blankslate' ); ?></h1>
-</header>
-<section class="entry-content">
-<p><?php _e( 'Nothing found for the requested page. Try a search instead?', 'blankslate' ); ?></p>
-<?php get_search_form(); ?>
-</section>
-</article>
-</section>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php
+//enter any custom data here
+$data = [ 
+	'site' => get_bloginfo('name'), 
+	'error' => get_theme_mod('text_setting', 'No direct site access allowed'),
+];
+
+header('Content-Type: application/json');
+echo json_encode($data);
