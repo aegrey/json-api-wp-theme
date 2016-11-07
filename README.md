@@ -10,3 +10,7 @@ Just install as a theme in Wordpress, initially displays site name and error mes
 Error message can be changed in the theme customization.  
   
 Easily customizable for a developer to add additional objects in the index.php file, or add custom theme fields in functions.    
+
+  
+
+ JSON API Display is distributed under the terms of the GNU GPL https://www.gnu.org/licenses/gpl.html
