@@ -1,8 +1,8 @@
 <?php
 
-add_action('after_setup_theme', 'apitheme_setup');
+add_action('after_setup_theme', 'jsondisplay_setup');
 
-function apitheme_setup() {
+function jsondisplay_setup() {
 
 	// add any custom responses here & update in theme customizations
 	add_action('customize_register', 'apitheme_customize_register');
